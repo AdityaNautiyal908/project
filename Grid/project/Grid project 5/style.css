@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    min-height: 100%;
+}
+
+img {
+    width: 300px;
+}
+
+.panel {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.welcome {
+    background: #323230;
+    padding: 30px 60px;
+    grid-auto-rows: 1fr;
+}
